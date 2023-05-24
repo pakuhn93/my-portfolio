@@ -1,0 +1,112 @@
+:root{
+    --nav-gap-right: 5em;
+    --nav-padding-left: 0.5em;
+    --nav-padding-right: 0.5em;
+    --nav-background: rgb(0, 37, 0);
+    --nav-shadows: 0.5em;
+    --nav-shadows-color: darkgray;
+    --width-about: 0.5em;
+    --width-work: 0.5em;
+}
+
+*{
+    font-family: 'Calibri';
+}
+
+/* Body Formatting */
+body{
+    background-color: rgb(0, 58, 0);
+    color: darkgray;
+}
+
+/* Header Formatting */
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    background-color: var(--nav-background);
+}
+
+/* Footer Formatting */
+footer{
+    display: flex;
+    align-content: column;
+    flex-wrap: wrap;
+}
+
+/* Nav Name */
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+/* Nav Links */
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: var(--nav-gap-right);
+}
+
+/* Nav Name Formatting */
+header > nav > h1{
+    border: dotted;
+    padding: var(--nav-padding-left);
+    font-size: 2em;
+}
+
+/* Nav Links Formatting */
+header > nav > h2{
+    border: dotted;
+    padding: var(--nav-padding-right);
+}
+
+/* About Card */
+.card-about{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 0.5em 10em;
+    text-align: center;
+    border: solid;
+}
+
+/* About h1 Formatting */
+.card-about > h1{
+    font-size: 24px;
+}
+
+/* My Work Card */
+.card-work{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 0.5em 10em;
+    text-align: center;
+    border: solid;
+}
+
+/* My Work Card Formatting */
+.card-work > h1{
+    font-size: 24px;
+}
+
+/* Selfie */
+.card-img-profile{
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+}
+
+/* Project Images */
+.card-imgs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Showcase Project Image */
+.card-img-showcase{
+    display: flex;
+    justify-content: center;
+}

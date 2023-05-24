@@ -12,35 +12,94 @@
 </head>
 
 <body>
-    <!-- Header -->
+    <!-- Header Navigation -->
     <header>
-        <!-- Navigation (include home link click)-->
-        <nav>
-            <h1>Home</h1>
-            <ul>
-                <li>Project 1</li>
-                <li>Project 2</li>
-                <li>Project 3</li>
-                <li>Project 4</li>
-                <li>Project 5</li>
-            </ul>
+
+        <!-- Home Button -->
+        <nav class = "nav-left">
+            <h1>Paul Kuhn</h1>
+        </nav>
+
+        <!-- Navigation -->
+        <nav class = "nav-right">
+            <h2>About Me</h2>
+            <h2>My Work</h2>
+            <h2>Contact Me</h2>
         </nav>
     </header>
 
     <!-- About Me (include name and picture) -->
     <section>
-        <!-- <img src="" alt="Profile Picture" width="" height=""> -->
-        <!-- <img src="" alt="Project 1" width="" height=""> -->
-        <!-- <img src="" alt="Project 2" width="" height=""> -->
-        <!-- <img src="" alt="Project 3" width="" height=""> -->
-        <!-- <img src="" alt="Project 4" width="" height=""> -->
-        <!-- <img src="" alt="Project 5" width="" height=""> -->
+        <!-- Profile Picture -->
+        <div class = "card-img-profile">
+            <img src="./assets/images/me-2023.jpg" alt="Profile Picture" width="250" height="250">
+        </div> 
+        <!-- About Me Text -->
+        <article class = "card-about">
+            <h1>About Me</h1>
+            <p>
+                Hello, my name is Paul Kuhn. Ever since I was in kindergarten, I've always loved 
+                computers. I used to be a computer science major at Cabrillo College in Aptos, 
+                which is where I started my journey to becoming a programmer. I wasn't 
+                meshing well with the typical college lifestyle of taking classes all day 
+                and I had no clue how to study efficiently so I took some time off from 
+                school to develop myself. During that time, I switched majors, taught 
+                myself how to study efficiently, and became an accounting tutor for 
+                Cuyamaca College. I eventually stumbled upon a coding boot camp, 
+                which allowed me the chance to return to my coding roots in a style 
+                that is much more adherent to my preferences. I have recently found 
+                a passion in web development and I am elated to be able to share that 
+                excitement with the world!
+            </p>
+        </article>
 
+        <!-- Creating Space -->
+        <br></br>
+
+        <!-- My Work -->
+        <article class = "card-work">
+            <h1>My Work</h1>
+            <p>
+                A little about my work and my working style: 
+                I like to make sure that my work is, first and foremost, easy to follow, 
+                fix, edit, etc. I want something that is user-friendly. Websites that 
+                jump around all over the place, have improperly grouped elements, 
+                and have strange behaviors are not for me at all. The User Experience 
+                is paramount to a successful website--even if that website is for personal 
+                use. When the audience for the websites is satisfied then I am satisfied. 
+                Organization is key. I wasn't an accounting major for nothing! All 
+                my life I've organized things just for the fun of it. I remember 
+                organizing my old trading cards, my toy cars, etc, because it felt 
+                so satisfying. As far as design goes, I prefer a more minimalistic approach 
+                so that the website is not overwhelming.
+            </p>
+        </article>
+    </section>
+
+    <!-- Completed Projects -->
+    <section>
+        <div class = "card-img-showcase">
+            <img src="./assets/images/mushroom.PNG" alt="Project 1" width="500" height="500">
+        </div>
+
+        <div class = "card-imgs">
+            <a href = "https://pakuhn93.github.io/prework-study-guide/">
+                <img src="./assets/images/acer1.jpg" alt="Prework Study Guide" width="250" height="250">
+            </a>
+            <img src="./assets/images/acer2.jpg" alt="Project 3" width="250" height="250">
+            <img src="./assets/images/acer3.jpg" alt="Project 4" width="250" height="250">
+            <img src="./assets/images/acer4.jpg" alt="Project 5" width="250" height="250">
+        </div>
     </section>
 
     <!-- Contact Me -->
     <footer>
-
+        <h1>Contact Me</h1>
+        <ul>
+            <li>Email</li>
+            <li>Phone</li>
+            <li>LinkedIn</li>
+        </ul>
     </footer>
 </body>
 </html>
