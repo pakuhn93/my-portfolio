@@ -1,0 +1,46 @@
+*{
+    font-family: 'Calibri';
+}
+
+/* Header Arrangement and Formatting */
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+/* Horizontal Navigation */
+nav {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* Nav-Left Formatting */
+.nav-left{
+    font-size: 4em;
+}
+
+/* Nav-Right Formatting */
+.nav-right{
+    display: flex;
+    font-size: 4em;
+    gap: 1em;
+    padding-right: 1em;
+}
+
+/* About Me Formatting */
+.card-about{
+    display: flex;
+    flex-wrap: row wrap;
+}
+
+.h1-about{
+    font-size: 2em;
+}
+
+/* Profile Image Formatting */
+.img-about {
+    height: 35em;
+    width: 35em;
+}
